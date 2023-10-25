@@ -1,0 +1,53 @@
+html {
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+body {
+  background-color:#24242c;
+  color: aliceblue;
+}
+
+#magenta{
+  color:darkmagenta;
+}
+
+#styleCursos{
+  margin-top: 8%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 8%;
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+}
+
+.centerImg{
+  margin: auto;
+  display: block;
+}
+
+.titleMenu{
+  color:dimgray;
+}
+
+.textDecoration{
+  text-decoration: none;
+  color:black;
+}
+
+.fontCursos{
+  text-decoration: none;
+  color: white;
+}

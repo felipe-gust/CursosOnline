@@ -1,0 +1,43 @@
+@page
+@model CursosOnline.Pages_Subscribers.DetailsModel
+
+@{
+    ViewData["Title"] = "Dev Cursos | Detalhes Premium";
+}
+
+<h1>Informações do Premium</h1>
+
+<div>
+    <h4>Aluno Premium</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Subscriber.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Subscriber.Title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Subscriber.StartDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Subscriber.StartDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Subscriber.EndDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Subscriber.EndDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Subscriber.Student)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Subscriber.Student.Email)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@Model.Subscriber?.Id">Editar</a>
+    <a class="btn btn-outline-light" asp-page="./Index">Voltar para a lista</a>
+</div>

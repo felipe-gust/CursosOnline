@@ -1,0 +1,43 @@
+@page
+@model CursosOnline.Pages_Subscribers.EditModel
+
+@{
+    ViewData["Title"] = " Dev Cursos | Editar Premium";
+}
+
+<h1>Editar aluno Premium</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Subscriber.Id" />
+            <div class="form-group">
+                <label asp-for="Subscriber.Title" class="control-label"></label>
+                <input asp-for="Subscriber.Title" class="form-control" />
+                <span asp-validation-for="Subscriber.Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Subscriber.StartDate" class="control-label"></label>
+                <input asp-for="Subscriber.StartDate" class="form-control" />
+                <span asp-validation-for="Subscriber.StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Subscriber.EndDate" class="control-label"></label>
+                <input asp-for="Subscriber.EndDate" class="form-control" />
+                <span asp-validation-for="Subscriber.EndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Subscriber.StudentId" class="control-label"></label>
+                <select asp-for="Subscriber.StudentId" class="form-control" asp-items="ViewBag.StudentId"></select>
+                <span asp-validation-for="Subscriber.StudentId" class="text-danger"></span>
+            </div><br>
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+                <a class="btn btn-outline-light" asp-page="./Index">Voltar para a lista</a>
+            </div>
+        </form>
+    </div>
+</div>
+

@@ -1,0 +1,37 @@
+@page
+@model CursosOnline.Pages_Students.DetailsModel
+
+@{
+    ViewData["Title"] = "Dev Cursos | Informações do aluno";
+}
+
+<h1>Informações do aluno</h1>
+
+<div>
+    <h4>Aluno</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Student.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Student.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Student.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Student.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Student.Cellphone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Student.Cellphone)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@Model.Student?.Id">Editar</a>
+    <a class="btn btn-outline-light" asp-page="Index">Voltar para a lista</a>
+</div>

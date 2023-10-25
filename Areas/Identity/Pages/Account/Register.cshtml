@@ -1,0 +1,46 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Dev Cursos | Criar sua conta";
+}
+
+<div class="row">
+    <div class="col-md-5">
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <h1>Crie sua conta</h1><br>
+            <h3>Informe os dados abaixo para realizar o cadastro.</h3>
+            <hr />            
+            <div class="form-floating mb-3">                
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+                <label class="text-dark" asp-for="Input.Email">E-mail</label>
+            </div>            
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+                <label class="text-dark" asp-for="Input.Password">Senha</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                <label class="text-dark" asp-for="Input.ConfirmPassword">Confirme a senha</label>
+            </div>        
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Criar conta</button>
+            <hr>
+            <div class="senha bg-secondary">
+                <h5 class="text-light text-center" style="padding-top: 10px;">Sobre a senha:</h5>
+                <div style="font-size: small; color: white; padding-bottom: 3px;">
+                    <ul>
+                        <li>As senhas devem ter pelo menos um caractere não alfanumérico.</li>
+                        <li>As senhas devem ter pelo menos um dígito ('0'-'9').</li>
+                        <li>As senhas devem ter pelo menos uma letra maiúscula ('A'-'Z').</li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+    </div>    
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

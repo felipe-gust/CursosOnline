@@ -1,0 +1,54 @@
+@page
+@model CursosOnline.Pages_Subscribers.IndexModel
+
+@{
+    ViewData["Title"] = "Dev Cursos | Alunos Premium";
+}
+
+<h1>Alunos Premium</h1>
+
+<p>
+    <a class="btn btn-primary" asp-page="Create">Adicionar Premium</a>
+</p>
+<table class="table table-light">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Subscriber[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subscriber[0].StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subscriber[0].EndDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subscriber[0].StudentId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Subscriber) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudentId)
+            </td>
+            <td>
+                <a class="btn btn-outline-dark" asp-page="./Edit" asp-route-id="@item.Id">Editar</a>
+                <a class="btn btn-outline-dark" asp-page="./Details" asp-route-id="@item.Id">Detalhes</a>
+                <a class="btn btn-outline-danger" asp-page="./Delete" asp-route-id="@item.Id">Deletar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

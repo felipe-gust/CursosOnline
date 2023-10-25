@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = netcoreapp7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CursosOnline
+build_property.RootNamespace = CursosOnline
+build_property.ProjectDir = C:\workspace-csharp\CRUD-AspNet2\CursosOnline\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\workspace-csharp\CRUD-AspNet2\CursosOnline
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/Students/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/Students/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/Students/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/Students/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/Students/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/Subscribers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vic2NyaWJlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/Subscribers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vic2NyaWJlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/Subscribers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vic2NyaWJlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/Subscribers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vic2NyaWJlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/Subscribers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vic2NyaWJlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Views/Home/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace-csharp/CRUD-AspNet2/CursosOnline/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1svwfhrdmj
