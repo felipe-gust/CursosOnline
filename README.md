@@ -12,9 +12,9 @@ O mesmo possui um CRUD(Create, Read, Update, Delete) criado com ASP.NET Razor Pa
 
 <h1>:hammer: Funcionalidades da aplicação</h1>
 
-- `Função 1 - Cadastrar tarefa`: Ao clicar em "Create New" na página de Tarefas, você será direcionado para adicionar uma nova tarefa clicando em "Save";
-- `Função 2 - Atualizar tarefa`: Caso necessário atualizar alguma tarefa, na página de Tarefas, na frente da tarefa que deseja atualizar clique em 'Edit', altere os dados e clique em 'Save';
-- `Função 3 - Excluir`: Na página de Tarefas, na frente da tarefa que deseja deletar clique em 'Delete';
+- `Função 1 - ---`: ;
+- `Função 2 - ---`: ;
+- `Função 3 - ---`: ;
 
 <hr>
 
